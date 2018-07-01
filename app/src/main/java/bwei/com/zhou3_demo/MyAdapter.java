@@ -63,7 +63,7 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             holder1.image.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Log.d("第一张","posin++++++++"+position);
+                    Log.d("一张","posin++++++++"+position);
                     ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(holder1.image, "alpha", 1f,0f,1f);
                     objectAnimator.setDuration(5000);
 
